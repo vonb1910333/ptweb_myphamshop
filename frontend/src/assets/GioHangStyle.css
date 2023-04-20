@@ -1,0 +1,515 @@
+.tranggiohang{
+     margin-left: 5%;
+     margin-right: 5%;
+}
+
+.tranggiohang .rowHeader{
+     width: 100%;
+     margin-left: 0%;
+}
+.giohang {
+     font-family: Inter;
+     font-size: 16px;
+     width: 100%;
+     margin-left: 1%;
+}
+
+.giohang .titleRow,
+.dathang .titleRow {
+     margin-bottom: 3%;
+}
+
+.giohang .title,
+.dathang .title {
+     font-family: Inter;
+     font-size: 18px;
+     font-weight: 500;
+}
+
+.giohang .khungsanpham,
+.dathang .khungsanpham {
+     width: 100%;
+}
+
+.giohang .thongtinSP {
+     width: 100%;
+     margin-bottom: 1%;
+     background-color: #f0f0f0;
+     border-radius: 10px;
+     border: 0.1px solid #EAEAEA;
+}
+
+.giohang .thongtinSP:hover {
+     margin-bottom: 1%;
+     background-color: #EAEAEA;
+}
+.giohang .thongtinSP:hover .text,
+.giohang .thongtinSP:hover .tenSP{
+     font-size: 18px;
+}
+
+.giohang .khungsanpham .hinhanh,
+.dathang .khungsanpham .hinhanh {
+     width: 100%;
+}
+
+.giohang .khungsanpham .tenSP,
+.dathang .khungsanpham .tenSP {
+     word-wrap: break-word;
+     position: absolute;
+     top: 50%;
+     transform: translate(0%, -50%);
+     text-align: left;
+     font-size: 17px;
+}
+.dathang .khungsanpham .tenSP {
+     font-size: 18px;
+}
+.giohang .column,
+.dathang .column {
+     position: relative;
+}
+
+.giohang .text {
+     word-wrap: break-word;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-45%, -50%);
+     font-family: Inter;
+     font-size: 17px;
+}
+
+.giohang .checkbox {
+     color: antiquewhite;
+     position: absolute;
+     top: 50%;
+     left: 90%;
+     transform: translate(0%, -50%);
+}
+
+.giohang .btntang {
+     position: absolute;
+     top: 50%;
+     left: 70%;
+     transform: translate(-45%, -50%);
+     border: 0.1px solid #a9a7a7;
+}
+
+.giohang .btngiam {
+     position: absolute;
+     top: 50%;
+     left: 30%;
+     transform: translate(-45%, -50%);
+     border: 0.1px solid #a9a7a7;
+}
+
+.giohang .btngiam:hover,
+.giohang .btntang:hover {
+     background-color: #dddddd;
+}
+
+.giohang .soluong {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-45%, -50%);
+     font-size: 20px;
+}
+
+.giohang .btnXoa {
+     border-radius: 5px;
+     border: 0.1px solid #a9a7a7;
+     background-color: rgb(220, 220, 220);
+}
+
+.giohang .btnXoa:hover {
+     background-color: rgb(197, 197, 197);
+}
+
+.giohang .khungSoLuong {
+     background-color: aquamarine;
+     border: solid 0.1px blue;
+
+}
+
+.giohang .chonTatCa {
+     display: inline;
+     float: left;
+     margin-left: 3%;
+     position: absolute;
+     top: 40%;
+     left: 2%;
+     transform: translate(-45%, -50%);
+}
+
+.giohang .lableTatCa{
+     display: inline;
+     margin-left: 6px;
+     font-family: Inter;
+     font-size: 19px;
+     position: absolute;
+     top: 50%;
+     left: 20%;
+     transform: translate(2%, -50%);
+}
+.giohang .tongThanhToan {
+     display: inline;
+     margin-left: 6px;
+     font-family: Inter;
+     font-size: 19px;
+     position: absolute;
+     top: 50%;
+     left: 42%;
+     transform: translate(2%, -50%);
+}
+
+.giohang .btnDatHang {
+     border-radius: 5px;
+     border: 0.1px solid #a9a7a7;
+     background-color: rgb(220, 220, 220);
+     font-family: Inter;
+     font-size: 19px;
+     float: right;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(2%, -50%);
+}
+
+.giohang .btnDatHang:hover,
+.dathang .btnDatHang:hover {
+     background-color: rgb(163, 163, 163);
+}
+
+.giohang .thongTinDatHang {
+     width: 100%;
+     margin-top: 2%;
+}
+
+
+/* -------------------------Dat hang---------------- */
+.dathang {
+     margin-top: 4%;
+     margin-right: -2%;
+}
+
+.dathang .thongtinSPDatHang {
+     width: 100%;
+     background-color: #FFFFFF;
+     border-top: 0.1px solid #a9a7a7;
+     border-left: none;
+     border-right: none;
+     margin-right: 1px;
+     margin-left: 1px;
+}
+
+.dathang .thongtinSPDatHang:hover {
+     margin-bottom: 1%;
+     background-color: #EAEAEA;
+}
+
+.dathang .rowDatHang .tongThanhToan {
+     display: inline;
+     margin-left: 6px;
+     font-family: Inter;
+     font-size: 19px;
+     position: absolute;
+     top: 80%;
+     left: 40%;
+     transform: translate(2%, 60%);
+}
+
+.dathang .rowDatHang {
+     width: 100%;
+     margin-top: 1%;
+}
+
+.dathang .btnDatHang {
+     border-radius: 5px;
+     border: 0.1px solid #a9a7a7;
+     background-color: rgb(220, 220, 220);
+     font-family: Inter;
+     font-size: 19px;
+     float: right;
+     position: absolute;
+     top: 50%;
+     left: 42%;
+     transform: translate(2%, 20%);
+}
+
+.dathang .diachi{
+     width: 76%;
+     height: 40px;
+     float: right;
+}
+.dathang .ghichu {
+     width: 88%;
+     height: 40px;
+     float: right;
+}
+
+.dathang .textDatHang {
+     font-size: 18px;
+     font-family: Inter;
+}
+
+.dathang .chitietDonHang {
+     border: 0.1px #dddddd solid;
+     width: 97.5%;
+     margin-left: 0.1%;
+     margin-right: 1%;
+     margin-top: 4%;
+}
+
+.dathang .titleRowCTDH {
+     margin-bottom: 1%;
+     margin-top: 2%;
+}
+
+.dathang .textDatHang {
+     word-wrap: break-word;
+     position: absolute;
+     top: 50%;
+     left: 42%;
+     transform: translate(-45%, -50%);
+     font-family: Inter;
+     font-size: 17px;
+}
+
+.dathang .textTT {
+     font-family: Inter;
+     font-size: 18px;
+     display: inline;
+}
+
+.dathang .textTTNhap{
+     font-family: Inter;
+     font-size: 18px;
+     display: inline;
+     margin-top: 0.5%;
+     position: absolute;
+}
+
+.dathang .dialogThongBao {
+     background-color: #EAEAEA;
+     border-radius: 10px;
+     border: solid #dddddd 0.1px;
+     width: 300px;
+     position: absolute;
+     top: 40%;
+     left: 40%;
+}
+
+.dathang .btnOK {
+     margin-left: 40%;
+     margin-bottom: 15%;
+     font-family: Inter;
+     font-size: 18px;
+     width: 60px;
+     background-color: #a9a7a7;
+     color: #FFFFFF;
+     border: none;
+}
+
+.dathang .btnOK:hover {
+     color: black;
+     background-color: #8d8c8c;
+}
+
+.giohangtrong {
+     width: 100%;
+}
+
+.giohangtrong .btnMuaNgay {
+     font-family: Inter;
+     font-size: 20px;
+     background-color: #a9a7a7;
+     color: #494949;
+}
+
+.giohangtrong .textGioHangTrong {
+     font-family: Inter;
+     font-size: 17px;
+}
+
+.tranggiohang .listSP {
+     text-align: left;
+     width: 100%;
+     margin-top: 8%;
+}
+
+.tranggiohang .listSP .list-group-item.active {
+     z-index: 2;
+     color: #fff;
+     background-color: #76575727;
+     border-color: #968080ab;
+}
+
+.tranggiohang .listSP .list-group-item:hover {
+     color: #fff;
+     background-color: #76575727;
+}
+
+.tranggiohang .listSP .btn:hover {
+     color: #756262;
+     background-color: #76575727;
+     border-color: #968080ab;
+}
+
+.tranggiohang .listSP .form-control:focus {
+     color: #495057;
+     background-color: #fff;
+     border-color: #968080ab;
+     outline: 0;
+     box-shadow: 0 0 0 0.2rem rgba(94, 74, 44, 0.315);
+}
+
+.tranggiohang .listSP .sanpham-khung {
+     background-color: #d0cfcf;
+     font-size: 12px;
+     padding: 2px 2px 3px;
+     margin-top: 5px;
+     -moz-border-radius: 2px;
+     -webkit-border-radius: 2px;
+     border-radius: 2px;
+     width: 100%;
+     margin-left: 0.1%;
+     /* height: 100px; */
+}
+
+/* ------------------------------Header */
+.header-outside {
+     width: 89%;
+     position: fixed;
+     z-index: 50;
+
+}
+
+.tranggiohang .header {
+     /* margin-top: 2px;
+     margin-left: 1%;
+     margin-right: 1%; */
+   }
+   
+   .tranggiohang  .tenTaiKhoan{
+     /* padding-left: 20%; */
+     display: inline;
+ }
+   .tranggiohang  .header .search {
+     text-align: center;
+     background-color: #E9E8E8;
+     font-size: 20px;
+     border-radius: 5px;
+     margin-top: 1%;
+   }
+   
+   .tranggiohang  .header .btnDangKy {
+     border: none;
+     color: white;
+     background-color: #929292;
+     border-radius: 5px;
+     font-size: 18px;
+     margin-top: -5%;
+   
+   }
+   
+   .tranggiohang  .header .btnGioHang {
+     border: none;
+     background-color: none;
+     color: #929292;
+     /* margin-top: -2%;
+     margin-left: -3%;
+     position: relative; */
+   }
+   
+   .tranggiohang  .header .btnGioHang:hover {
+     border: none;
+     color: #515151;
+   }
+   
+   .tranggiohang .header .iconGioHang {
+     border: none;
+     background-color: none;
+     font-size: 32px;
+     color: #929292;
+   }
+   
+   .tranggiohang .header .iconGioHang:hover {
+     border: none;
+     background-color: none;
+     color: #515151;
+   }
+   
+   .tranggiohang  .header .btnTaiKhoan {
+     background-color: #E9E8E8;
+     border: none;
+      margin-top: 3%;
+      color: #929292;
+     /* position: relative;
+     top:-40% */
+   }
+   
+   .tranggiohang  .header .iconTaiKhoan{
+     font-size: 38px;
+     color: #929292;
+   }
+   .tranggiohang  .header .navbar-expand-lg {
+     color: #515151;
+     font-size: 20px;
+   
+   }
+   
+   .tranggiohang .headerKhachHang .nav-item {
+     color: #515151;
+     font-size: 20px;
+   }
+   
+   .tranggiohang .headerKhachHang .soluongsanpham {
+     position: absolute;
+     top: 0%;
+     left: 75%;
+     font-size: 17px;
+     border-radius: 50%;
+     border: 0.1px solid #d31212;
+     background-color: #d31212;
+     height: 30px;
+     width: 30px;
+     color: #FFFFFF;
+   }
+   
+   .tranggiohang .header .nav-link .dropdown-menu {
+     background-color: #FFFFFF;
+     width: max-content;
+     border-radius: 0px 0px 10px 10px;
+     display: none;
+     text-align: left;
+   }
+   .tranggiohang .header .nav-link .dropdown-menu  .dropdown-item{
+     font-family: Inter;
+     font-size: 17px;
+   }
+   
+   .tranggiohang .header .nav-item .nav-link:hover .dropdown-menu {
+     position: absolute;
+     background-color: #FFFFFF;
+     top: calc(97%);
+     transform: translateX(-70%);
+     left: 10%;
+     width: max-content;
+     border-radius: 0px 0px 10px 10px;
+     display: block;
+     text-align: left;
+   }
+
+.tranggiohang .btnDonHang{
+     font-family: Inter;
+     font-size: 18px;
+     background-color: #929292;
+     color:#ffffff;
+     border: none;
+     width: 120px;
+     height: 40px;
+     float: right;
+     border-radius: 10px;
+}

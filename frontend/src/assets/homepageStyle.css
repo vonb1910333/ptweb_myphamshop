@@ -1,0 +1,218 @@
+.homepage {
+     margin-left: 5%;
+     margin-right: 5%;
+}
+
+.homepage .header {
+     margin-top: 0px;
+     margin-left: 1%;
+     margin-right: 1%;
+}
+
+.homepage .header .search {
+     text-align: center;
+     background-color: #E9E8E8;
+     font-size: 20px;
+     border-radius: 5px;
+     margin-top: 1%;
+}
+
+.homepage .header .btnDangKy {
+     border: none;
+     color: white;
+     background-color: #929292;
+     border-radius: 5px;
+     font-size: 18px;
+     margin-top: -5%;
+
+}
+
+.homepage .btnDangKy {
+     margin-left: 4%;
+     display: inline;
+
+}
+
+.homepage .tenTaiKhoan {
+     padding-left: 20%;
+     display: inline;
+}
+
+.homepage .header .btnGioHang {
+     border: none;
+     background-color: none;
+     color: #929292;
+     margin-top: -2%;
+     margin-left: -3%;
+     position: relative;
+}
+
+.homepage .header .btnGioHang:hover {
+     border: none;
+     color: #929292;
+     background-color: none;
+}
+
+.homepage .header .iconGioHang {
+     border: none;
+     background-color: none;
+     font-size: 32px;
+     color: #929292;
+}
+
+.homepage .header .iconGioHang:hover {
+     border: none;
+     background-color: none;
+     color: #515151;
+}
+
+.homepage .header .btnTaiKhoan {
+     background-color: #E9E8E8;
+     border: none;
+     margin-top: 3%;
+     /* margin-left: 20%; */
+     color: #929292;
+     /* position: relative;
+   top:-40% */
+}
+
+.homepage .header .iconTaiKhoan {
+     font-size: 38px;
+     color: #929292;
+}
+
+.header .navbar-expand-lg {
+     color: #515151;
+     font-size: 20px;
+
+}
+.header-outside {
+     width: 89%;
+     position: fixed;
+     z-index: 50;
+     
+   }
+.homepage .headerKhachHang .nav-item {
+     color: #515151;
+     font-size: 20px;
+}
+
+.homepage .headerKhachHang .soluongsanpham {
+     position: absolute;
+     top: -15%;
+     left: 70%;
+     font-size: 17px;
+     border-radius: 50%;
+     border: 0.1px solid #d31212;
+     background-color: #d31212;
+     ;
+     height: 30px;
+     width: 30px;
+     color: #FFFFFF;
+}
+
+.homepage .header .nav-link .dropdown-menu {
+     background-color: #FFFFFF;
+     width: max-content;
+     border-radius: 0px 0px 10px 10px;
+     display: none;
+     text-align: left;
+}
+
+.homepage .header .nav-item .nav-link:hover .dropdown-menu {
+     position: absolute;
+     background-color: #FFFFFF;
+     top: calc(97%);
+     transform: translateX(-70%);
+     left: 10%;
+     width: max-content;
+     border-radius: 0px 0px 10px 10px;
+     display: block;
+     text-align: left;
+}
+
+.homepage .header .nav-link .dropdown-menu .dropdown-item {
+     font-family: Inter;
+     font-size: 17px;
+}
+
+
+.navbarrow .navbar-toggler {
+     background-color: #FFFFFF;
+     color: black;
+     /* border: 1px #515151; */
+}
+
+.navbarrow {
+     align-items: left;
+     text-align: left;
+     justify-content: center;
+     float: right;
+     color: #515151;
+     margin-top: 0px;
+}
+
+.navbarrow .navbar-collapse .nav-item a {
+     color: #515151;
+     position: relative;
+     text-align: center;
+     display: inline-block;
+     border-radius: 5px;
+     font-size: 18px;
+     padding-top: 0px;
+     padding-bottom: 0px;
+     font-family: Inter;
+     font-size: 18px;
+}
+
+.navbarrow .navbar-collapse .nav-item {
+     color: #515151;
+     margin-left: 35px;
+     position: relative;
+     text-align: left;
+     display: inline-block;
+     transition: 0.4s;
+     border-radius: 5px;
+     font-size: 18px;
+     font-family: Inter;
+     font-weight: 600;
+}
+
+
+.navbarrow .navbar-collapse .nav-item.active,
+.navbarrow .navbar-collapse .nav-item:hover {
+     background-color: #E9E8E8;
+     border-bottom-color: #515151;
+}
+
+.navbarrow .navbar-collapse .menu-item a {
+     color: inherit;
+     text-decoration: none;
+}
+
+.navbarrow .navbar-collapse .dropdown .dropdown-menu {
+     background-color: #FFFFFF;
+     top: calc(100%);
+     left: 50%;
+     transform: translateX(-70%);
+     border-radius: 0px 0px 10px 10px;
+     display: none;
+}
+
+.navbarrow .navbar-collapse .dropdown:hover .dropdown-menu {
+     position: absolute;
+     background-color: #FFFFFF;
+     top: calc(100%);
+     left: 70%;
+     transform: translateX(-70%);
+     width: max-content;
+     border-radius: 0px 0px 10px 10px;
+     display: block;
+     text-align: left;
+}
+
+.navbarrow .navbar-collapse .dropdown .dropdown-menu .dropdown-item {
+     display: block;
+     text-align: left;
+     margin-top: 10px;
+}

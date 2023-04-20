@@ -1,0 +1,200 @@
+.dondathang .title{
+     width: 100%;
+}
+.header-outside {
+  width: 89%;
+  position: fixed;
+  z-index: 50;
+  
+}
+.dondathang {
+     margin-left: 5%;
+     margin-right: 5%;
+}
+.dondathang .title h4{
+     text-align: center;
+     margin-top:2%;
+     margin-bottom: 2%;
+}
+
+.dondathang .dsDonDatHang{
+     width: 100%;
+     margin-left: 0.1%;
+}
+
+.dondathang .thongtinDonHang{
+     width: 100%;
+     margin-top: 1%;
+     margin-bottom: 1%;
+     background-color: #E9E8E8;
+     border-radius: 6px;
+}
+
+.dondathang .thongtinDonHang:hover{
+     background-color: #d1d1d1;
+}
+.dondathang .thongtinDonHang:hover .text{
+     background-color: #d1d1d1;
+     font-family: Inter;
+     font-size: 18px;
+}
+.dondathang .title {
+     font-family: Inter;
+     font-size: 18px;
+     font-weight: 500;
+     text-align: center;
+}
+
+.dondathang .column {
+     position: relative;
+}
+
+.dondathang .text{
+     word-wrap: break-word;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-45%, -50%);
+     font-family: Inter;
+     font-size: 17px;
+}
+
+.dondathang .btnTrangThai{
+     word-wrap: break-word;
+     font-family: Inter;
+     font-size: 17px;
+     border-radius: 5px;
+     width: 150px;
+     background-color: #929292;
+     color: #ffffff;
+}
+
+.dondathang  .header {
+     margin-top: 2px;
+     margin-left: 1%;
+     margin-right: 1%;
+   }
+   
+   .dondathang   .tenTaiKhoan{
+     padding-left: 20%;
+     display: inline;
+ }
+ .dondathang   .header .search {
+     text-align: center;
+     background-color: #E9E8E8;
+     font-size: 20px;
+     border-radius: 5px;
+     margin-top: 1%;
+   }
+   
+   .dondathang   .header .btnDangKy {
+     border: none;
+     color: white;
+     background-color: #929292;
+     border-radius: 5px;
+     font-size: 18px;
+     margin-top: -5%;
+   
+   }
+   
+   .dondathang   .header .btnGioHang {
+     border: none;
+     background-color: none;
+     color: #929292;
+     margin-top: -2%;
+     margin-left: -3%;
+     position:relative;
+
+   }
+   
+   .dondathang   .header .btnGioHang:hover {
+     border: none;
+     color: #515151;
+   }
+   
+   .dondathang  .header .iconGioHang {
+     border: none;
+     background-color: none;
+     font-size: 32px;
+     color: #929292;
+   }
+   
+   .dondathang  .header .iconGioHang:hover {
+     border: none;
+     background-color: none;
+     color: #515151;
+   }
+   
+   .dondathang   .header .btnTaiKhoan {
+     background-color: #E9E8E8;
+     border: none;
+      margin-top: 3%;
+      color: #929292;
+     /* position: relative;
+     top:-40% */
+   }
+   
+   .dondathang   .header .iconTaiKhoan{
+     font-size: 38px;
+     color: #929292;
+   }
+   .dondathang   .header .navbar-expand-lg {
+     color: #515151;
+     font-size: 20px;
+   
+   }
+   
+   .dondathang  .headerKhachHang .nav-item {
+     color: #515151;
+     font-size: 20px;
+   }
+   
+   .dondathang  .headerKhachHang .soluongsanpham {
+     position: absolute;
+     top: -10%;
+     left: 70%;
+     font-size: 17px;
+     border-radius: 50%;
+     border: 0.1px solid #d31212;
+     background-color: #d31212;
+     height: 30px;
+     width: 30px;
+     color: #FFFFFF;
+   }
+   
+   .dondathang  .header .nav-link .dropdown-menu {
+     background-color: #FFFFFF;
+     width: max-content;
+     border-radius: 0px 0px 10px 10px;
+     display: none;
+     text-align: left;
+   }
+   .dondathang  .header .nav-link .dropdown-menu  .dropdown-item{
+     font-family: Inter;
+     font-size: 17px;
+   }
+   
+   .dondathang  .header .nav-item .nav-link:hover .dropdown-menu {
+     position: absolute;
+     background-color: #FFFFFF;
+     top: calc(97%);
+     transform: translateX(-70%);
+     left: 10%;
+     width: max-content;
+     border-radius: 0px 0px 10px 10px;
+     display: block;
+     text-align: left;
+   }
+
+   .dondathang  .btnTroVe{
+     font-family: Inter;
+     font-size: 18px;
+     background-color: #929292;
+     color:#ffffff;
+     border: none;
+     width: 120px;
+     height: 40px;
+     float: right;
+     border-radius: 10px;
+}
+

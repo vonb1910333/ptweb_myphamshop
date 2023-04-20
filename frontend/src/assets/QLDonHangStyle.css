@@ -1,0 +1,372 @@
+.frameQLDonHang .dschucNang .navigationBar .dsChucNang .btnDonHang{
+    background-color: #FFFFFF;
+    color: #515151;
+}
+.frameQLDonHang, .frameLapHoaDon {
+    background-color: #EAEAEA;
+    height: calc(100vh);
+    font-family: Inter;
+    font-size: 17px;
+    width: 100%;
+    margin-right: 0px;
+}
+.frameQLDonHang .dschucNang, .frameLapHoaDon .dschucNang{
+    background-color:#515151 ;
+    font-family: Inter;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+}
+
+.timkiem .btnTimKiem {
+    background-color: #EAEAEA;
+    border: none;
+    position: relative;
+}
+.frameQLDonHang .timkiem{
+    width: 98%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.frameQLDonHang .btnOpenCTDH,.frameQLDonHang .btnOpenHoaDon{
+    background-color: #515151;
+    color: #FFFFFF;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 9.1%;
+}
+.frameQLDonHang .btnTrangThai{
+    margin-left: 6%;
+    position: absolute;
+    width: max-content;
+    margin-right: 1px;
+}
+.frameQLDonHang .form-control {
+    border-radius: 10px;
+    background-color: #F5F4F4;
+    border-right: 15px;
+}
+
+.frameQLDonHang .timkiem .inputSearch:hover{
+    background-color: #D9D9D9;
+}
+.frameQLDonHang .timkiem{
+    width: 98%;
+    margin-left: 10px;
+}
+.frameQLDonHang .timkiem .btnTimKiem:hover {
+    background-color: #515151;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #D9D9D9;
+}
+
+.bottomHeader {
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+}
+
+.dsDonHang{
+    width: 100%;
+}
+.frameQLDonHang  table, .frameLapHoaDon table {
+    font-family: Inter;
+    width: 96%;
+    margin-left: 1.4%;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin-left: 40px;
+    justify-items: center;
+}
+
+.tdChucNang {
+    float: right;
+    width: max-content;
+}
+
+.btnTrangThaiDH {
+    border-radius: 7px;
+    border: none;
+    width: 130px;
+}
+
+
+.frameQLDonHang  table th, .frameLapHoaDon  table th {
+    text-align: left;
+    color: #000000;
+    padding: 8px;
+    min-width: 30px;
+    font-size: 17px;
+}
+
+.frameQLDonHang  table td, .frameLapHoaDon table td{
+    text-align: left;
+    padding: 8px;
+    color: #000000;
+    font-size: 15px;
+}
+
+.frameQLDonHang  table td:hover{
+    color: #515151;
+}
+
+.frameQLDonHang  table tbody tr, .frameLapHoaDon table tbody tr{
+    background: #FFFFFF;
+    border-radius: 7px;
+    margin-top: 3px;
+    font-size: 15px;
+    border-bottom: solid 0.01px #e9e7e7;
+}
+
+.frameQLDonHang  table tbody tr:hover{
+    background: #ecebeb;
+    border-bottom: solid 0.01px #b4b3b3;
+    color: #515151;
+}
+
+
+.pagination a {
+    color: #515151;
+    font-size: 17px;
+} .pagination .dropdown-item.active {
+    color: #515151;
+    font-size: 17px;
+    background-color:#BABABA;
+}
+.pagination a:hover{
+    color: #161515;
+    font-size: 17px;
+}
+ .pagination {
+    display: inline-block;
+    margin-top: 2px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #515151;
+    border-width: 1px;
+}
+ .pagination .nav-link .dropdown-menu {
+    background-color: #FFFFFF;
+    width: 180px;
+    display: none;
+    text-align: left;
+    font-family: Inter;
+    font-size: 17px;
+}
+.pagination  .nav-link:hover .dropdown-menu {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 180px;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    text-align: left;
+    top: calc(95%);
+}
+
+.btnChonTrang {
+    margin-left: 88.4%;
+    margin-top: 2%;
+}
+
+/* Dropup Button */
+.dropbtn {
+    color: black;
+    font-size: 16px;
+    border: none;
+    width: 80px;
+    height: 35px;
+    background-color:#f1f1f1;
+    border-radius: 7px;
+  }
+  
+  /* The container <div> - needed to position the dropup content */
+  .dropup{
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropup content (Hidden by Default) */
+  .dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: Inter;
+    font-size: 17px;
+  }
+  
+  /* Links inside the dropup */
+  .dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: Inter;
+    font-size: 17px;
+  }
+  
+  /* Change color of dropup links on hover */
+  .dropup-content a:hover {background-color:#D9D9D9}
+  
+  /* Show the dropup menu on hover */
+  .dropup:hover .dropup-content {
+    display: block;
+    bottom: 104%;
+    right:  1%;
+  }
+  
+  /* Change the background color of the dropup button when the dropup content is shown */
+  .dropup:hover .dropbtn {
+    background-color:#BABABA;
+    
+  }
+.numberPage {
+    display: inline-block;
+    margin-top: 2px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #515151;
+    border-width: 1px;
+}
+
+.frameQLDonHang .dialogXacNhan, 
+.frameLapHoaDon .dialogXacNhan{
+    position: absolute;
+    top: calc(43%);
+    left: 8%;
+    transform: translateX(50%);
+    border: solid 0.5px #929292;
+    background-color: #EAEAEA;
+    border-radius: 16px;
+    display: block;
+    width: max-content;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.frameQLDonHang .dialogTrangThai
+ {
+    position: absolute;
+    top: calc(36%);
+    left: 30%;
+    transform: translateX(50%);
+    border: solid 0.5px #929292;
+    background-color: #EAEAEA;
+    border-radius: 16px;
+    display: block;
+    width: max-content;
+    border-radius: 15px;
+    text-align: center;
+}
+.frameQLDonHang .dialogTrangThai .trangthai {
+    font-family: Inter;
+    text-align: left;
+    margin-left: 35%;
+}
+.frameLapHoaDon .dialogXacNhan .btnYes,
+.frameQLDonHang .dialogXacNhan .btnYes {
+    border-radius: 10px;
+    background-color: red;
+    width: 100px;
+    color: #FFFFFF;
+    margin: 20px 0px 20px 10px;
+}
+
+
+.frameQLDonHang .dialogTrangThai .btnCapNhat{
+    border-radius: 10px;
+    background-color: red;
+    width: 100px;
+    color: #FFFFFF;
+    margin: 20px 0px 20px 0px;
+}
+.frameQLDonHang .dialogTrangThai .btnHuy{
+    border-radius: 10px;
+    background-color: #929292;
+    width: 100px;
+    color: #FFFFFF;
+    margin: 20px 0px 20px 0px;
+}
+
+
+.frameLapHoaDon .dialogXacNhan .btnNo,
+.frameQLDonHang .dialogXacNhan .btnNo{
+    border-radius: 10px;
+    background-color: #929292;
+    width: 100px;
+    color: #FFFFFF;
+    margin: 20px 0px 20px 20px;
+}
+
+
+.dialogThongBao .btnOK {
+     margin-left: 22px;
+     background-color: #929292;
+     border-radius: 10px;
+     width: 70px;
+     height: 30px;
+     color: #FFFFFF;
+     margin-top: 4%;
+}
+/* Lap hoa don */
+.frameLapHoaDon .dschucNang .navigationBar .dsChucNang .btnDonHang {
+    background-color: #FFFFFF;
+    color: #515151;
+}
+
+.number:hover,
+.number.active {
+    background: #717699;
+}
+
+.frameLapHoaDon .hoadon {
+    background-color: #FFFFFF;
+    border: 1px solid #515151;
+    width: 96%;margin-left: 2%;
+}
+
+.frameLapHoaDon .btnLapHoaDon, .frameLapHoaDon .btnTroVe {
+    background-color: #515151;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 120px;
+    margin: 20px 21px 20px 0px;
+    float: right;
+}
+
+
+/* Xem chi tiet hoa don */
+.hoadonchitiet{
+    background-color: #FFFFFF;
+    border: 1px solid #515151;
+    margin-left: 2px;
+    width: 93.9%;
+    position:absolute;
+    background-color: #FFFFFF;
+    border-radius:15px;
+    border-color: #BABABA;
+    background-color: #F9F9F9;
+    top: calc(28%);
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 16px;
+    border: 1px solid #515151;
+    display: block;
+    color: #515151;
+}
+
+.lableName{
+    font-family:Inter; 
+    color: #515151; 
+    font-size: 30px; 
+    font-weight: 600;
+}
+

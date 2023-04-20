@@ -1,0 +1,33 @@
+.timkiem .btnTimKiem {
+     background-color: #EAEAEA;
+     border: none;
+ }
+ 
+  .form-control {
+     border-radius: 15px;
+     background-color: #F5F4F4;
+     border-right: 15px;
+ }
+ 
+ .timkiem .btnTimKiem:hover {
+     background-color: #515151;
+ }
+ 
+  .dropdown-menu .dropdown-item:hover {
+     background-color: #D9D9D9;
+ }
+ 
+  .dropdown-menu .active {
+     background-color: #515151;
+ }
+ 
+  .pagination {
+     float: right;
+     margin-top: 2px;
+     border-radius: 7px;
+     height: 34px;
+     border-style: solid;
+     border-color: #515151;
+     border-width: 1px;
+ }
+ 

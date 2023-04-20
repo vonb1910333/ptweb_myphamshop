@@ -1,0 +1,349 @@
+.frameQLSanPham .dschucNang .navigationBar .dsChucNang .btnSanPham,
+.frameQLThemSanPham .dschucNang .navigationBar .dsChucNang .btnSanPham,
+.frameQLSuaSanPham  .dschucNang .navigationBar .dsChucNang .btnSanPham{
+     background-color: #FFFFFF;
+     color: #515151;
+}
+
+.frameQLThemSanPham .dschucNang .navigationBar .moreInformation,
+.frameQLSuaSanPham .dschucNang .navigationBar .moreInformation{
+     margin-top: 80px;
+}
+
+.frameQLSuaSanPham,
+.frameQLSanPham,
+.frameQLThemSanPham {
+     background-color: #EAEAEA;
+     height: 100%;
+     font-family: Inter;
+     width: 100%;
+     margin-right: 0px;
+}
+
+.frameQLSanPham .dschucNang,
+.frameQLThemSanPham .dschucNang,
+.frameQLSuaSanPham .dschucNang {
+     background-color: #515151;
+     border-bottom-right-radius: 20px;
+     border-top-right-radius: 20px;
+}
+
+.frameQLSanPham .timkiem .btnThem {
+     background-color: #515151;
+     border-radius: 10px;
+     color: #FFFFFF;
+     font-size: 17px;
+     float: right;
+     margin-left: 34.5%;
+     position: absolute;
+}
+
+.frameQLSuaSanPham .timkiem .btnXem,
+.frameQLThemSanPham .timkiem .btnXem{
+     background-color: #515151;
+     border-radius: 10px;
+     color: #FFFFFF;
+     font-size: 17px;
+     float: right;
+     margin-left: 36%;
+     position: absolute;
+}
+
+.timkiem .inputSearch:hover {
+     background-color: #D9D9D9;
+}
+.frameQLSuaSanPham .bottomHeader,
+.frameQLSanPham .bottomHeader,
+.frameQLThemSanPham .bottomHeader {
+     margin-bottom: 2px;
+     text-align: center;
+     font-size: 20px;
+     width: 96%;
+     margin-left: 2%;
+}
+
+.dsSanPham {
+     width: 100%;
+}
+.frameQLSuaSanPham .timkiem,
+.frameQLSanPham .timkiem,
+.frameQLThemSanPham .timkiem {
+     width: 98%;
+     margin-left: 10px;
+     margin-bottom: 10px;
+}
+
+.btnChonTrang {
+     margin-left: 88.4%;
+     margin-top: 2%;
+}
+
+/* Dropup Button */
+.dropbtn {
+     color: black;
+     font-size: 16px;
+     border: none;
+     width: 80px;
+     height: 35px;
+     background-color: #f1f1f1;
+     border-radius: 7px;
+}
+
+/* The container <div> - needed to position the dropup content */
+.dropup {
+     position: relative;
+     display: inline-block;
+}
+
+/* Dropup content (Hidden by Default) */
+.dropup-content {
+     display: none;
+     position: absolute;
+     bottom: 50px;
+     background-color: #f1f1f1;
+     min-width: 100px;
+     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+     z-index: 1;
+     font-family: Inter;
+     font-size: 17px;
+}
+
+/* Links inside the dropup */
+.dropup-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     font-family: Inter;
+     font-size: 17px;
+}
+
+/* Change color of dropup links on hover */
+.dropup-content a:hover {
+     background-color: #D9D9D9
+}
+
+.dropup-content a.active {
+     background-color: #929292
+}
+
+/* Show the dropup menu on hover */
+.dropup:hover .dropup-content {
+     display: block;
+     bottom: 104%;
+     right: 1%;
+}
+
+/* Change the background color of the dropup button when the dropup content is shown */
+.dropup:hover .dropbtn {
+     background-color: #BABABA;
+
+}
+
+.numberPage {
+     display: inline-block;
+     margin-top: 2px;
+     border-radius: 7px;
+     border-style: solid;
+     border-color: #515151;
+     border-width: 1px;
+}
+
+
+.frameQLSanPham table {
+     font-family: Inter;
+     width: 96.05%;
+     margin-left: 3.2%;
+     background-color: #D9D9D9;
+     border-radius: 10px;
+     margin-top: 0.1%;
+     justify-items: center;
+}
+
+.tdChucNang {
+     float: right;
+}
+
+.frameQLSanPham table th {
+     text-align: left;
+     color: #000000;
+     padding: 8px;
+     min-width: 30px;
+     font-size: 16px;
+}
+
+.frameQLSanPham table td {
+     text-align: left;
+     padding: 8px;
+     color: #000000;
+     font-size: 15px;
+}
+
+.frameQLSanPham table tbody tr {
+     background: #FFFFFF;
+     border-radius: 7px;
+     margin-top: 3px;
+     font-size: 15px;
+     border-bottom: solid 0.01px #e9e7e7;
+    
+}
+.frameQLSanPham table tbody tr:hover {
+     background: #ecebeb;
+     border-bottom: solid 0.01px #b4b3b3;
+     color: #515151;
+}
+
+.frameQLSanPham .timkiem .btnXem {
+     background-color: #515151;
+     border-radius: 15px;
+     color: #FFFFFF;
+     float: right;
+     font-size: 16px;
+}
+
+.dialogXacNhan,
+.dialogThongBao {
+     position: absolute;
+     top: calc(45%);
+     left: 31.9%;
+     transform: translateX(50%);
+     border: solid 0.5px #929292;
+     background-color: #EAEAEA;
+     border-radius: 16px;
+     display: block;
+     width: 404px;
+     height: 187px;
+     border-radius: 15px;
+     text-align: center;
+}
+
+.dialogXacNhan .btnYes {
+     border-radius: 10px;
+     background-color: red;
+     width: 70px;
+     height: 30px;
+     color: #FFFFFF;
+     margin-top: 20px;
+}
+
+.dialogXacNhan .btnNo,
+.dialogThongBao .btnOK {
+     margin-left: 22px;
+     background-color: #929292;
+     border-radius: 10px;
+     width: 70px;
+     height: 30px;
+     color: #FFFFFF;
+     margin-top: 20px;
+}
+
+.frameQLSuaSanPham .form-control,
+.frameQLSanPham .form-control,
+.frameQLThemSanPham .form-control {
+     border-radius: 10px;
+     background-color: #F5F4F4;
+     border-right: 10px;
+}
+
+.frameQLSuaSanPham .timkiem .btnTimKiem:hover,
+.frameQLSanPham .timkiem .btnTimKiem:hover,
+.frameQLThemSanPham .timkiem .btnTimKiem:hover {
+     background-color: #515151;
+}
+
+
+form {
+     width: 96.2%;
+     height: 98%;
+     border-radius: 15px;
+     margin-bottom: 1%;
+     background-color: #FFFFFF;
+     margin-left: 2%;
+}
+
+form .functionName {
+     text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: #515151;
+     font-size: 25px;
+     padding-top: 20px;
+}
+
+form .form-group {
+     color: black;
+     width: 90%;
+     margin-left: 25px;
+     margin-top: 20px;
+}
+
+form .error-feedback {
+     text-align: right;
+     color: red;
+     float: right;
+}
+
+form .textMessage2 {
+     padding-top: 5px;
+     text-align: center;
+     padding-bottom: 2px;
+     color: #D30000;
+     display: inline;
+}
+
+form .textMessage1 {
+     padding-bottom: 2px;
+     color: #D30000;
+     text-align: center;
+}
+
+.frameQLSuaSanPham .frameSua form .btnLuu,
+.frameQLThemSanPham .frameThem form .btnLuu {
+     text-align: center;
+     transform: translateY(0px);
+     margin-left: 46%;
+     margin-bottom: 1%;
+     width: 125px;
+     background-color: #515151;
+     color: #FFFFFF;
+     border-radius: 10px;
+}
+
+.selectBox {
+     width: 100%;
+     height: 38px;
+     font-size: 16px;
+     border-radius: 10px;
+     background-color: #F5F4F4;
+     border: solid #dad9d9 0.1px;
+     font-family: Inter;
+     font-weight: 600;
+     color: #757474;
+}
+
+form label {
+     font-family: Inter;
+     font-weight: 400;
+}
+
+form .form-control {
+     font-family: Inter;
+     font-weight: 600;
+     color: #515151;
+}
+
+.lableName {
+     font-family: Inter;
+     color: #515151;
+     font-size: 30px;
+     font-weight: 600;
+}
+
+.frameQLSanPham .dsSanPham table .tenSP {
+     position: absolute;
+     left: 0;
+     right: 8%;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     top: 25%;
+}
