@@ -93,28 +93,32 @@
                <div class="row titleRow" style="width:100%">
                     <div class="col-md-3 title">Mã đơn hàng</div>
                     <div class="col-md-2 title">Ngày đặt</div>
-                    <div class="col-md-2 title">Số lượng</div>
-                    <div class="col-md-3 title">Số tiền</div>
+                    <div class="col-md-1 title">Số lượng</div>
+                    <div class="col-md-2 title">Số tiền</div>
                     <div class="col-md-2 title">Trạng thái</div>
                </div>
-               <div v-for="(donhang, i) in dsDonHang" :key="i" class="row thongtinDonHang" @click="(setActiveDonHang(donhang), isOpenCTDH=!isOpenCTDH)">
+               <div v-for="(donhang, i) in dsDonHang" :key="i" class="row thongtinDonHang" >
                     <div class="col-md-3 column">
-                         <p class="text"> {{ donhang.id }} </p>
+                         <p @click="(setActiveDonHang(donhang), isOpenCTDH=!isOpenCTDH)" class="text"> {{ donhang.id }} </p>
                     </div>
                     <div class="col-md-2 column">
                          <p class="text"> {{ donhang.DH_Ngay }}</p>
                     </div>
-                    <div class="col-md-2 column">
+                    <div class="col-md-1 column">
                          <p class="text"> {{ donhang.DH_TongSoLuong }}</p>
                     </div>
-                    <div class="col-md-3 column">
+                    <div class="col-md-2 column">
                          <p class="text"> {{ formatMoney(donhang.DH_TongTien) }}đ </p>
                     </div>
-                    <div class="col-md-2 column">
+                    <div class="col-md-2 ">
                          <button class="btn btnTrangThai">{{ donhang.DH_TrangThai }}</button>
-
+                         
+                    </div>
+                    <div class="col-md-1 column" v-if="donhang.DH_TrangThai === 'Mới'">
+                         <buton button @click="huyDonHang(donhang.id)" class="btn bg-danger btnTrangThai">Hủy</buton>
                     </div>
                </div>
+
           </div>
           <CTDH v-if="isOpenCTDH" :chitietdonhang="chitietdonhang" :activeDonHang="donhangActive" :khachhang="currentUser" :nhanvien="nhanvien"/>
           <div class=" row" v-if="isOpenCTDH">
@@ -269,6 +273,13 @@ export default {
                let val = (data / 1).toFixed(0).replace(".", ",");
                return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
           },
+
+          // huy don hang
+          async huyDonHang (DH_Ma){
+            const result =  await  DonHangService.delete(DH_Ma)
+            console.log (result);
+            location.reload();
+          }
 
      },
 

@@ -138,6 +138,10 @@
                                             <span class="fas fa-file-invoice" style="font-size:18px; margin-left: 2px;">
                                             </span> Lập hóa đơn
                                         </a>
+                                        <a class="dropdown-item icon" href="#" @click="huyDonHang(row.id)">
+                                            <span class="fas fa-file-invoice" style="font-size:18px; margin-left: 2px;">
+                                            </span> Xóa hóa đơn
+                                        </a>
                                     </div>
                                 </td>
                             </tr>
@@ -457,7 +461,14 @@ export default {
 
         async goToQLDonHang() {
             this.$router.push({ name: 'QLDonHang', params: { id: this.localNhanVien.NV_Ma } })
-        }
+        },
+
+
+        async huyDonHang (DH_Ma){
+            const result =  await  DonHangService.delete(DH_Ma)
+            console.log (result);
+            location.reload();
+          }
 
     },
 

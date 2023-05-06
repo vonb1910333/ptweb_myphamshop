@@ -56,7 +56,7 @@ exports.findAll = async (req, res) => {
     }
 
     const [error, documents] = await handle(
-        DonHang.find(condition, '-ownerId')
+        DonHang.find(condition, '-ownerId').sort({ DH_NgayDat: -1 })
     );
 
     if (error) {
@@ -73,7 +73,7 @@ exports.findAll = async (req, res) => {
             conditions.KH_Ma = { $regex: new RegExp(KH_Ma), $options: "i" };
         }
         const [errors, documentss] = await handle(
-            DonHang.find(conditions, '-ownerId')
+            DonHang.find(conditions, '-ownerId').sort({ DH_NgayDat: -1 })
         );
         if (errors) {
             return next(
@@ -140,7 +140,7 @@ exports.update = async (req, res) => {
 //Delete a order with the specified id in the request
 exports.delete = async (req, res) => {
     const condition = {
-        _id: req.params.id,
+        _id: req.params.DH_Ma,
         ownerId: req.userId,
     };
 
